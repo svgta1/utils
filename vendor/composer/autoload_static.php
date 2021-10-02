@@ -11,12 +11,20 @@ class ComposerStaticInit53d1dca6622b1ea9a7cb6663fa621e30
         array (
             'svgta\\utils\\' => 12,
         ),
+        'I' => 
+        array (
+            'Imagecow\\' => 9,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'svgta\\utils\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Imagecow\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/imagecow/imagecow/src',
         ),
     );
 
