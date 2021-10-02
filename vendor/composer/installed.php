@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '719e84b80fb6f25344512457159359319ca9ae60',
     'name' => 'svgta/utils',
   ),
   'versions' => 
@@ -23,12 +23,12 @@
     ),
     'svgta/utils' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '719e84b80fb6f25344512457159359319ca9ae60',
     ),
   ),
 );

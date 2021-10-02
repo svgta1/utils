@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "885d8f3cab0431e6c9844550e1b44a90",
+    "content-hash": "b837700d7500bae99792118d40af0e67",
     "packages": [
         {
             "name": "imagecow/imagecow",
@@ -60,7 +60,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "imagecow/imagecow": 20
     },
