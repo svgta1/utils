@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '719e84b80fb6f25344512457159359319ca9ae60',
+    'reference' => 'a1d743194273818a636ec5b8531fb7c0e5807839',
     'name' => 'svgta/utils',
   ),
   'versions' => 
@@ -51,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '719e84b80fb6f25344512457159359319ca9ae60',
+      'reference' => 'a1d743194273818a636ec5b8531fb7c0e5807839',
     ),
   ),
 );

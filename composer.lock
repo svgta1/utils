@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b837700d7500bae99792118d40af0e67",
+    "content-hash": "b149dc6d490fbb146c329bd62d08e907",
     "packages": [
         {
             "name": "imagecow/imagecow",
@@ -66,7 +66,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
