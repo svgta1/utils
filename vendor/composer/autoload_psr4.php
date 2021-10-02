@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'svgta\\utils\\' => array($baseDir . '/src'),
-    'Imagecow\\' => array($vendorDir . '/imagecow/imagecow/src'),
 );

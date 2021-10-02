@@ -15,7 +15,6 @@
         }
     },
     "require": {
-	"php": ">=7.0",
-        "imagecow/imagecow": "dev-master"
+	"php": ">=7.0"
     }
 }
