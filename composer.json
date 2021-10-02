@@ -1,0 +1,21 @@
+{
+    "name": "svgta/utils",
+    "description": "Outils pratiques",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "svgta",
+            "email": "svgta@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "svgta\\utils\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "imagecow/imagecow": "dev-master"
+    }
+}
