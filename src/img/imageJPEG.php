@@ -1,5 +1,5 @@
 <?php
-namespace svgta\utils\utils;
+namespace svgtaUtils\img;
 
 class imageJPEG{
 	const DEFAULT_SIZE = [

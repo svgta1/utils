@@ -6,6 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'svgta\\utils\\' => array($baseDir . '/src'),
+    'svgtaUtils\\' => array($baseDir . '/src'),
+    'TBETool\\' => array($vendorDir . '/tbetool/php-password-generator/src'),
+    'Safe\\' => array($vendorDir . '/thecodingmachine/safe/lib', $vendorDir . '/thecodingmachine/safe/deprecated', $vendorDir . '/thecodingmachine/safe/generated'),
+    'ParagonIE\\ConstantTime\\' => array($vendorDir . '/paragonie/constant_time_encoding/src'),
+    'OTPHP\\' => array($vendorDir . '/spomky-labs/otphp/src'),
     'Imagecow\\' => array($vendorDir . '/imagecow/imagecow/src'),
+    'DASPRiD\\Enum\\' => array($vendorDir . '/dasprid/enum/src'),
+    'BaconQrCode\\' => array($vendorDir . '/bacon/bacon-qr-code/src'),
+    'Assert\\' => array($vendorDir . '/beberlei/assert/lib/Assert'),
 );

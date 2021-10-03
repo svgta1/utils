@@ -11,11 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "svgta\\utils\\": "src/"
+            "svgtaUtils\\": "src/"
         }
     },
     "require": {
 	"php": ">=7.0",
-        "imagecow/imagecow": "^2.4"
+        "imagecow/imagecow": "^2.4",
+        "spomky-labs/otphp": "^10.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "tbetool/php-password-generator": "^1.4"
     }
 }
