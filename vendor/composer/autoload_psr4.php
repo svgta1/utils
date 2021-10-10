@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'svgtaUtils\\' => array($baseDir . '/src'),
+    'phpseclib3\\' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'TBETool\\' => array($vendorDir . '/tbetool/php-password-generator/src'),
     'Safe\\' => array($vendorDir . '/thecodingmachine/safe/lib', $vendorDir . '/thecodingmachine/safe/deprecated', $vendorDir . '/thecodingmachine/safe/generated'),
     'ParagonIE\\ConstantTime\\' => array($vendorDir . '/paragonie/constant_time_encoding/src'),

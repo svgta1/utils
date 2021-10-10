@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '8b5dc210db170c8d356afc5dff1c61972d4e0d07',
+    'reference' => '554006e30d40f3317f5d30cf8ddf256754c59c7d',
     'name' => 'svgta/utils',
   ),
   'versions' => 
@@ -79,6 +79,24 @@ private static $installed = array (
       ),
       'reference' => 'f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c',
     ),
+    'paragonie/random_compat' => 
+    array (
+      'pretty_version' => 'v9.99.100',
+      'version' => '9.99.100.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+    ),
+    'phpseclib/phpseclib' => 
+    array (
+      'pretty_version' => '3.0.10',
+      'version' => '3.0.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '62fcc5a94ac83b1506f52d7558d828617fac9187',
+    ),
     'spomky-labs/otphp' => 
     array (
       'pretty_version' => 'v10.0.1',
@@ -95,7 +113,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '8b5dc210db170c8d356afc5dff1c61972d4e0d07',
+      'reference' => '554006e30d40f3317f5d30cf8ddf256754c59c7d',
     ),
     'tbetool/php-password-generator' => 
     array (

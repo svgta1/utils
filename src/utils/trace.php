@@ -13,8 +13,8 @@ class trace{
 			$this->end = PHP_EOL;
 			$this->inter = PHP_EOL;
 		}else{
-			$this->begin = '<pre>';
-			$this->end = '</pre><br />';
+			$this->begin = '<div class="svgtatrace"><pre>';
+			$this->end = '</pre><br /></div>';
 			$this->inter = '<br />';
 		}
 		

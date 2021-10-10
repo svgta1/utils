@@ -97,12 +97,17 @@ class ComposerStaticInit53d1dca6622b1ea9a7cb6663fa621e30
         '4af1dca6db8c527c6eed27bff85ff0e5' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/yaz.php',
         'fe43ca06499ac37bc2dedd823af71eb5' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/zip.php',
         '356736db98a6834f0a886b8d509b0ecd' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/zlib.php',
+        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
             'svgtaUtils\\' => 11,
+        ),
+        'p' => 
+        array (
+            'phpseclib3\\' => 11,
         ),
         'T' => 
         array (
@@ -142,6 +147,10 @@ class ComposerStaticInit53d1dca6622b1ea9a7cb6663fa621e30
         'svgtaUtils\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'phpseclib3\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
         'TBETool\\' => 
         array (
