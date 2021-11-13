@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\ctrl;
+namespace svgta\utils\ctrl;
 class ctrl{
 	public static function isBot() {
 		if($_SERVER["REMOTE_ADDR"] == $_SERVER["SERVER_ADDR"])

@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\utils;
+namespace svgta\utils\utils;
 class trace{
 	private $begin;
 	private $end;
@@ -7,7 +7,7 @@ class trace{
 	private $cli;
 
 	public function __construct($from = false, $affDate = false){
-		$this->cli = \svgtaUtils\ctrl\ctrl::isCliRequest();
+		$this->cli = \svgta\utils\ctrl\ctrl::isCliRequest();
 		if($this->cli){
 			$this->begin = PHP_EOL;
 			$this->end = PHP_EOL;

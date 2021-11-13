@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\utils;
+namespace svgta\utils\utils;
 
 class conv{
 	public static function b64Encode($in){

@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\crypt;
+namespace svgta\utils\crypt;
 use phpseclib3\Crypt\EC;
 
 class rsaSign{

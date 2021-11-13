@@ -1,7 +1,7 @@
 <?php
-namespace svgtaUtils\crypt;
-use svgtaUtils\utils\conv;
-user svgtaUtils\utils;
+namespace svgta\utils\crypt;
+use svgta\utils\utils\conv;
+user svgta\utils\utils;
 class crypt{
 	const TYPE_DECODE = [
 		'b64' => "b64Decode",
@@ -23,16 +23,16 @@ class crypt{
 	$private $sSk;
 	$private $cPk;
 	$private $cSk;
-	
+
 
 	public function __construct($help = false){
 		if($help){
 			foreach(self::HELP as $k=>$v){
 				utils::getTrace($k . ' : ' . $v );
 			}
-		}		
+		}
 	}
-	
+
 	public function setPrivateKey($key){
 	}
 	public function setSignKey($sign){

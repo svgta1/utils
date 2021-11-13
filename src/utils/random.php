@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\utils;
+namespace svgta\utils\utils;
 
 class random{
 	const MIN_PWD_LENGTH = 10;

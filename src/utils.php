@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils;
+namespace svgta\utils;
 
 class utils{
 	public static function verifyOtp($prov, $code){
@@ -36,6 +36,6 @@ class utils{
 		return $crypt;
 	}
 
-	
+
 
 }

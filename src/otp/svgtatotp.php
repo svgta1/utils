@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\otp;
+namespace svgta\utils\otp;
 use OTPHP\TOTP;
 use OTPHP\Factory;
 use ParagonIE\ConstantTime\Base32;

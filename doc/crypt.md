@@ -80,7 +80,7 @@ La clé privée de signature peut être la même que la clé RSA si son algorith
 - Si pas de clé privé RSA, elle peut être générée via :
 
 ```php
-$rsa = new svgtaUtils\crypt\rsaCrypt();
+$rsa = new svgta\utils\crypt\rsaCrypt();
 $rsa->setKeys();
 ```
 
@@ -99,7 +99,7 @@ $privateKey = $rsa->getProtectedKey($password); //Clé protégée par un mot de 
 - Si pas de clé privé de signature, elle peut être générée via :
 
 ```php
-$sign = new svgtaUtils\crypt\rsaSign();
+$sign = new svgta\utils\crypt\rsaSign();
 $sign->setKeys();
 ```
 

@@ -1,12 +1,12 @@
 <?php
-namespace svgtaUtils\crypt;
+namespace svgta\utils\crypt;
 use phpseclib3\Crypt\AES as secAes;
 use phpseclib3\Crypt\Random;
 
 class aes{
 	private $iv;
 	private $key;
-	
+
 	public function __contruct(){
 		$this->iv = false;
 		$this->key = false;

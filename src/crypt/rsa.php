@@ -1,6 +1,6 @@
 <?php
-namespace svgtaUtils\crypt;
-use svgtaUtils\utils\conv;
+namespace svgta\utils\crypt;
+use svgta\utils\utils\conv;
 class rsa{
 	private $sign;
 	private $rsa;

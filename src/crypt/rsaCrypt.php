@@ -1,5 +1,5 @@
 <?php
-namespace svgtaUtils\crypt;
+namespace svgta\utils\crypt;
 use phpseclib3\Crypt\RSA;
 use phpseclib3\Crypt\Common\Formats\Keys\PKCS8;
 
